@@ -27,7 +27,7 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
         <div className="navbar-header rpy-10">
           <div className="mobile-logo">
             <Link href="/">
-              <img src={logo} alt="Logo" title="Logo" />
+              <img style={{width: "30px"}} src={logo} alt="Logo" title="Logo" />
             </Link>
           </div>
           {/* Toggle Button */}
@@ -241,6 +241,7 @@ const Header1 = ({ menus }) => {
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
+                    style={{width: "30px"}}
                   />
                 </Link>
               </div>
@@ -282,6 +283,7 @@ const Header2 = ({ menus }) => {
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
+                    style={{width: "30px"}}
                   />
                 </Link>
               </div>
@@ -322,6 +324,7 @@ const Header3 = ({ menus }) => {
                   <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
+                    style={{width: "30px"}}
                     title="Logo"
                   />
                 </div>
@@ -364,13 +367,14 @@ const Header4 = ({ menus }) => {
                     src="assets/images/logos/logo-black.png"
                     alt="Logo"
                     title="Logo"
+                    style={{width: "30px"}}
                   />
                 </Link>
               </div>
             </div>
             <div className="nav-outer me-lg-auto ps-xxl-5 clearfix">
               {/* Main Menu */}
-              <Menu logo="assets/images/logos/logo-black.png" menus={menus} />
+
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
