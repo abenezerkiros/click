@@ -239,7 +239,7 @@ export const WhyChooseUs2 = ({ bg = "bgc-lighter" }) => {
             </div>
             <img
               className="br-5"
-              src="assets/images/services/why-choose-us.jpg"
+              src="assets/images/services/why-choose-us.png"
               alt="Why Choose Us"
             />
           </div>

@@ -27,36 +27,36 @@ const page = () => {
           }}
         >
           <div className="row align-items-center">
-            <div className="col-lg-7">
-              <div
-                className="hero-content style-two text-white rmb-55"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <h1>Empowering Creators. Simplifying Connections.</h1>
-                <p>
-                A better way for influencers, athletes, and businesses to connect, book, and grow — all in one place.
-                </p>
-                <div className="hero-btns pt-10">
-                  <div
-                    href="index3"
-                    className="theme-btn bgc-secondary me-3 mt-15"
-                    data-hover="Get Your SEO Audit"
-                  >
-                    <span>Join CLIQUE. Start Booking Smarter.</span>
-                  </div>
-                  <div
-                    href="services"
-                    className="theme-btn color-white mt-15"
-                    data-hover="Explore Services"
-                  >
-                    <span>Explore Services</span>
-                  </div>
+          <div className="text-center  ">
+  <div
+    className="hero-content style-two text-white rmb-55"
+    data-aos="fade-left"
+    data-aos-duration={1500}
+    data-aos-offset={50}
+  >
+                    <div className="section-title mb-20">
+                  <span className="subtitle mt-10 mb-15">CLIQUE</span>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-5">
+    <h1>Empowering Creators. Simplifying Connections.</h1>
+
+    <p>
+      A better way for influencers, athletes, and businesses to connect, book,<br/> and grow — all in one place.
+    </p>
+
+    <div className="hero-btns pt-10 flex flex-col sm:flex-row justify-center items-center">
+      <div
+        href="index3"
+        className="theme-btn bgc-secondary me-3 mt-15"
+        data-hover="Join CLIQUE"
+      >
+        <span>Join CLIQUE</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{  /*          <div className="col-lg-5">
               <div
                 className="hero-two-image-part"
                 data-aos="fade-right"
@@ -80,7 +80,7 @@ const page = () => {
                   <img src="assets/images/shapes/hero-shape5.png" alt="Shape" />
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </section>
@@ -142,20 +142,20 @@ const page = () => {
               <div className="about-four-image-part rmb-55">
                 <img src="assets/images/about/about-two.png" alt="About" />
                 <div className="shape one">
-                  <img src="assets/images/shapes/about-two1.jpg" alt="Shape" />
+                  <img style={{height: "100%", width:"100%"}} src="assets/images/logos/logo-two-white.png" alt="Shape" />
                 </div>
                 <div className="shape two">
-                  <img src="assets/images/shapes/about-two2.jpg" alt="Shape" />
+                  <img src="assets/images/shapes/hero-shape1.png" alt="Shape" />
                 </div>
                 <div className="shape three">
-                  <img src="assets/images/shapes/about-two3.jpg" alt="Shape" />
+                  <img src="assets/images/shapes/hero-shape4.png" alt="Shape" />
                 </div>
                 <div className="abs-headings">
                   <h6 className="shape four bgc-primary text-white">
                     10m+ Satisfied Clients
                   </h6>
-                  <h6 className="shape five bgc-green">CEO &amp; Founder</h6>
-                  <h6 className="shape six bgc-yellow">
+               
+                  <h6 className="shape six bgc-primary">
                     25+ Years Of Experience
                   </h6>
                 </div>
@@ -197,7 +197,7 @@ const page = () => {
       <WhyChooseUs2 />
       {/* Why Choose Us Area end */}
       {/* Case Studies Area start */}
-      <CaseStudies2 />
+
       {/* Case Studies Area end */}
       {/* Testimonials Area Start */}
       <section id="testimonials" className="testimonials-two-area rel z-1">
@@ -237,18 +237,7 @@ const page = () => {
                 <div className="shape icon">
                   <i className="flaticon-quotation-mark" />
                 </div>
-                <div className="shape one">
-                  <img src="assets/images/shapes/testi-four1.jpg" alt="Shape" />
-                </div>
-                <div className="shape two">
-                  <img src="assets/images/shapes/testi-four2.jpg" alt="Shape" />
-                </div>
-                <div className="shape three">
-                  <img src="assets/images/shapes/testi-four3.jpg" alt="Shape" />
-                </div>
-                <div className="shape four">
-                  <img src="assets/images/shapes/testi-four4.jpg" alt="Shape" />
-                </div>
+     
                 <div className="abs-headings">
                   <h6 className="shape five bgc-primary text-white">
                     10m+ Satisfied Clients
@@ -268,124 +257,10 @@ const page = () => {
       <Faq />
       {/* FAQ Area End */}
       {/* Blog Area start */}
-      <section id="blog" className="blog-area rel z-1">
-        <div className="container bordered-x pt-110 pb-70 px-sm-0">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-9">
-              <div
-                className="section-title text-center mb-50"
-                data-aos="zoom-in"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <span className="subtitle mb-15">Blog &amp; News</span>
-                <h2>Ultimate Guide to Boosting Engagement on Social Media</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item style-three"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog-two1.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
-            
-                    </li>
-                  </ul>
-                  <h5>
-                    <div href="blog-details">
-                      How to Craft they Winning Socials Media Strategy from
-                      Scratch
-                    </div>
-                  </h5>
-                  <div
-                    href="blog-details"
-                    className="theme-btn style-two hover-secondary"
-                    data-hover="Read More"
-                  >
-                    <span>Read More</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item style-three"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-                data-aos-delay={50}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog-two2.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
-            
-                    </li>
-                  </ul>
-                  <h5>
-                    <div href="blog-details">
-                      Unlocking the Power of Paid Ads A Social Media Marketing
-                    </div>
-                  </h5>
-                  <div
-                    href="blog-details"
-                    className="theme-btn style-two hover-secondary"
-                    data-hover="Read More"
-                  >
-                    <span>Read More</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item style-three"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-                data-aos-delay={100}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog-two3.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
 
-                    </li>
-                  </ul>
-                  <h5>
-                    <div href="blog-details">
-                      How to Improve Your Website’s Loading Speed Performance
-                    </div>
-                  </h5>
-                  <div
-                    href="blog-details"
-                    className="theme-btn style-two hover-secondary"
-                    data-hover="Read More"
-                  >
-                    <span>Read More</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Blog Area end */}
       {/* CTA Area Start */}
-      <section className="cta-two-area rel z-1">
+      <section className="cta-two-area mt-50 rel z-1">
         <div className="container px-sm-0 bordered-x pb-100">
           <div
             className="cta-two-wrap bgc-primary br-10"
@@ -440,6 +315,7 @@ const page = () => {
                     <img
                       src="assets/images/logos/logo-two-white.png"
                       alt="Logo"
+                      style={{width: "50px",height: "70px"}}
                     />
                   </div>
                   <div className="shape one">

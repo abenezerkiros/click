@@ -52,9 +52,7 @@ export const TestimonialSlider1 = () => {
           </div>
           <div className="text">{testimonial.text}</div>
           <div className="quote-title">
-            <div className="author">
-              <img src={testimonial.author} alt="Author" />
-            </div>
+         
             <h6>{testimonial.name}</h6>
             <span className="designation">/{testimonial.designation}</span>
           </div>
@@ -106,9 +104,7 @@ export const TestimonialsSlider2 = () => {
           data-aos-delay={index * 50}
         >
           <div className="author-logo">
-            <div className="author">
-              <img src={testimonial.author} alt="Author" />
-            </div>
+      
             <div className="logo">
               <img src={testimonial.logo} alt="Logo" />
             </div>
@@ -167,9 +163,9 @@ export const TestimonialsSlider3 = () => {
           </div>
           <div className="text">{testimonial.text}</div>
           <div className="quote-title">
-            <div className="author">
+       { /*    <div className="author">
               <img src={testimonial.author} alt="Author" />
-            </div>
+            </div>*/}
             <h6>{testimonial.name}</h6>
             <span className="designation">/{testimonial.designation}</span>
           </div>
@@ -219,9 +215,7 @@ export const TestimonialsSlider4 = () => {
           </div>
           <div className="text">{testimonial.text}</div>
           <div className="quote-title">
-            <div className="author">
-              <img src={testimonial.author} alt="Author" />
-            </div>
+    
             <h6>{testimonial.name}</h6>
             <span className="designation">/{testimonial.designation}</span>
           </div>
@@ -268,9 +262,7 @@ export const TestimonialsSlider5 = () => {
           </div>
           <div className="text">{testimonial.text}</div>
           <div className="quote-title">
-            <div className="author">
-              <img src={testimonial.author} alt="Author" />
-            </div>
+         
             <h6>{testimonial.name}</h6>
             <span className="designation">/{testimonial.designation}</span>
           </div>
