@@ -14,7 +14,6 @@ const page = () => {
     { id: 3, text: "Services", href: "#services" },
     { id: 4, text: "Case Study", href: "#case-study" },
     { id: 5, text: "Testimonials", href: "#testimonials" },
-    { id: 6, text: "Blog", href: "#blog" },
   ];
   return (
     <RiddaLayout bodyClass="home-three" header={3} footer={3} menus={menus}>
@@ -34,9 +33,43 @@ const page = () => {
     data-aos-duration={1500}
     data-aos-offset={50}
   >
-                    <div className="section-title mb-20">
-                  <span className="subtitle mt-10 mb-15">CLIQUE</span>
-                </div>
+          <div
+  style={{
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 8,
+    backgroundColor: "#0d0d0d",   // dark bg behind both pieces
+    padding: "2px 10px",
+    borderRadius: 9999,           // fully rounded container
+    fontFamily: "Inter, sans-serif"
+  }}
+>
+  <span
+    style={{
+      backgroundColor: "#0a84ff", // bright blue pill
+      color: "#fff",
+      padding: "2px 10px",
+      fontSize: 12,
+      fontWeight: 600,
+      borderRadius: 9999,
+      lineHeight: 1
+    }}
+  >
+    New
+  </span>
+
+  <span
+    style={{
+      color: "#ffffff",
+      fontSize: 16,
+      fontWeight: 700,
+      whiteSpace: "nowrap"
+    }}
+  >
+    CLIQUE
+  </span>
+</div>
+
     <h1>Empowering Creators. Simplifying Connections.</h1>
 
     <p>
@@ -144,21 +177,8 @@ const page = () => {
                 <div className="shape one">
                   <img style={{height: "100%", width:"100%"}} src="assets/images/logos/logo-two-white.png" alt="Shape" />
                 </div>
-                <div className="shape two">
-                  <img src="assets/images/shapes/hero-shape1.png" alt="Shape" />
-                </div>
-                <div className="shape three">
-                  <img src="assets/images/shapes/hero-shape4.png" alt="Shape" />
-                </div>
-                <div className="abs-headings">
-                  <h6 className="shape four bgc-primary text-white">
-                    10m+ Satisfied Clients
-                  </h6>
-               
-                  <h6 className="shape six bgc-primary">
-                    25+ Years Of Experience
-                  </h6>
-                </div>
+            
+         
               </div>
             </div>
             <div
@@ -238,12 +258,6 @@ const page = () => {
                   <i className="flaticon-quotation-mark" />
                 </div>
      
-                <div className="abs-headings">
-                  <h6 className="shape five bgc-primary text-white">
-                    10m+ Satisfied Clients
-                  </h6>
-                  <h6 className="shape six bgc-green">99% Positive Reviews</h6>
-                </div>
               </div>
             </div>
           </div>
@@ -318,26 +332,9 @@ const page = () => {
                       style={{width: "50px",height: "70px"}}
                     />
                   </div>
-                  <div className="shape one">
-                    <i className="fas fa-envelope" />
-                  </div>
-                  <div className="shape two">
-                    <i className="fas fa-shield-alt" />
-                  </div>
-                  <div className="shape three">
-                    <i className="fas fa-paper-plane" />
-                  </div>
-                  <div className="shape four">
-                    <i className="fas fa-rocket-launch" />
-                  </div>
-                  <div className="abs-headings">
-                    <h6 className="shape five bgc-primary text-white">
-                      10m+ Satisfied Clients
-                    </h6>
-                    <h6 className="shape six bgc-green">
-                      99% Positive Reviews
-                    </h6>
-                  </div>
+          
+
+     
                 </div>
               </div>
             </div>

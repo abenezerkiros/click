@@ -125,23 +125,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
-      <div className="faq-shapes">
-        <div className="shape one">
-          <img src="assets/images/shapes/faq1.png" alt="Shape" />
-        </div>
-        <div className="shape two">
-          <img src="assets/images/shapes/faq2.png" alt="Shape" />
-        </div>
-        <div className="shape three">
-          <img src="assets/images/shapes/faq3.png" alt="Shape" />
-        </div>
-        <div className="shape four">
-          <img src="assets/images/shapes/faq4.png" alt="Shape" />
-        </div>
-        <div className="shape five">
-          <img src="assets/images/shapes/faq5.png" alt="Shape" />
-        </div>
-      </div>
+
     </section>
   );
 };
