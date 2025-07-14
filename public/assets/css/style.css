@@ -329,7 +329,7 @@ input[type=checkbox], input[type=radio] {
       line-height: 1;
       padding: 0 5px 3px;
       display: inline-block;
-      background: var(--ridda-primary-color); }
+      background: black; }
   .section-title p {
     font-weight: 600;
     font-family: var(--ridda-heading-font); }
@@ -344,7 +344,7 @@ input[type=checkbox], input[type=radio] {
       border-radius: 12px;
       background: var(--ridda-secondary-color); }
       .section-title p span.bgc-primary {
-        background: var(--ridda-primary-color); }
+        background: black; }
 
 .subtitle {
   font-weight: 600;
@@ -976,7 +976,7 @@ a.theme-btn {
   .text-white .contact-info-two-item .icon {
     color: var(--ridda-secondary-color); }
   .text-white .accordion-item {
-    background: rgba(255, 255, 255, 0.05); }
+    background: black; }
     .text-white .accordion-item .accordion-button:after {
       width: 30px;
       height: 30px;
@@ -991,7 +991,7 @@ a.theme-btn {
   .text-white .contact-info-content .text {
     color: rgba(255, 255, 255, 0.65); }
   .text-white .contact-form.style-two {
-    background: rgba(255, 255, 255, 0.05); }
+    background: black; }
     .text-white .contact-form.style-two p, .text-white .contact-form.style-two label {
       opacity: 0.65; }
     .text-white .contact-form.style-two .form-control {
@@ -1009,7 +1009,7 @@ a.theme-btn {
   .text-white .service-limeline-item:not(:hover) .detail-btn {
     opacity: 0.7; }
   .text-white .work-process-item-two {
-    background: rgba(255, 255, 255, 0.05); }
+    background: black; }
     .text-white .work-process-item-two p {
       opacity: 0.65;
       -webkit-transition: 0.5s;
@@ -1071,7 +1071,7 @@ a.theme-btn {
   --ridda-primary-rgb: 58, 95, 255;
   --ridda-secondary-rgb: 214, 240, 55; }
   .home-three .subtitle {
-    color: var(--ridda-primary-color); }
+    color: black; }
   .home-three .footer-bottom .copyright-text a {
     color: var(--ridda-secondary-color); }
   .home-three .footer-bottom .scroll-top i {
@@ -1083,7 +1083,7 @@ a.theme-btn {
   .home-three .text-white .subtitle {
     color: white; }
   .home-three .bgc-black {
-    background: #051100; }
+    background: black; }
   .home-three .service-item.style-two .icon {
     color: var(--ridda-primary-color);
     background: rgba(var(--ridda-primary-rgb), 0.1); }
@@ -4252,7 +4252,7 @@ h6, .h6, .tab-style-one li button, .about-circles .circle, .faq-nav li a {
   position: relative;
   border-radius: 10px;
   border: 1px solid var(--ridda-border-color);
-  background: rgba(255, 255, 255, 0.05); }
+  background: black; }
   .about-logo-part .logo {
     position: absolute;
     left: 50%;
@@ -5043,7 +5043,7 @@ h6, .h6, .tab-style-one li button, .about-circles .circle, .faq-nav li a {
   margin-bottom: 30px;
   border-radius: 10px;
   border: 1px solid var(--ridda-border-color);
-  background: rgba(255, 255, 255, 0.05); }
+  background: black; }
   @media only screen and (min-width: 576px) {
     .feature-item {
       display: -webkit-box;
@@ -6569,7 +6569,7 @@ h6, .h6, .tab-style-one li button, .about-circles .circle, .faq-nav li a {
   -webkit-animation: pulse 1.5s infinite linear;
   animation: pulse 1.5s infinite linear; }
   .video-play.color-primary {
-    color: var(--ridda-primary-color); }
+    color: black; }
   @media only screen and (max-width: 479px) {
     .video-play {
       width: 60px;
@@ -6820,7 +6820,7 @@ h6, .h6, .tab-style-one li button, .about-circles .circle, .faq-nav li a {
   bottom: 0;
   z-index: -1;
   max-width: 100%;
-  color: rgba(255, 255, 255, 0.03); }
+  color: black; }
   @media only screen and (min-width: 1600px) {
     .counter-shapes .marquee-wrap {
       font-size: 180px; } }

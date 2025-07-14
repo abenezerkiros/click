@@ -324,7 +324,7 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <img src="assets/images/cta/cta.png" alt="CTA" />
+               
                   <div className="shape logo">
                     <img
                       src="assets/images/logos/logo-two-white.png"
